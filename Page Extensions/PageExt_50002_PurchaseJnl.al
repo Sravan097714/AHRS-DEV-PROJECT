@@ -13,6 +13,7 @@ pageextension 50014 "Purchase Journal" extends "Purchase Journal"
                 ApplicationArea = All;
                 Caption = 'Import Entries';
                 Promoted = true;
+                Visible = false;
                 PromotedCategory = Process;
                 Image = Import;
                 ToolTip = 'Import journal from desktop';

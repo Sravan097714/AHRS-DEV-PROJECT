@@ -3,6 +3,14 @@ pageextension 50012 "General Journal" extends "General Journal"
     layout
     {
         // Add changes to page layout here
+        modify("Debit Amount")
+        {
+            Visible = true;
+        }
+        modify("Credit Amount")
+        {
+            Visible = true;
+        }
     }
 
     actions
@@ -16,6 +24,7 @@ pageextension 50012 "General Journal" extends "General Journal"
                 Promoted = true;
                 PromotedCategory = Process;
                 Image = Import;
+                Visible = false;
                 ToolTip = 'Import journal from desktop';
 
                 trigger OnAction()

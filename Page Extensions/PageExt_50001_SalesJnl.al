@@ -16,6 +16,7 @@ pageextension 50013 SalesJnl extends "Sales Journal"
                 ApplicationArea = All;
                 Caption = 'Import Entries';
                 Promoted = true;
+                Visible = false;
                 PromotedCategory = Process;
                 Image = Import;
                 ToolTip = 'Import journal from desktop';
